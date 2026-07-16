@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pkl
+outputs/
+
+wildchat-data/*
+!wildchat-data/wildchat-4.8m/
+wildchat-data/wildchat-4.8m/*
+!wildchat-data/wildchat-4.8m/.gitkeep
+
+wildchat-results/*
+!wildchat-results/wildchat-4.8m-results/
+wildchat-results/wildchat-4.8m-results/*
+!wildchat-results/wildchat-4.8m-results/.gitkeep
+!wildchat-results/wildchat-4.8m-results/sentence_lengths.parquet
+!wildchat-results/wildchat-4.8m-results/no-content/
+!wildchat-results/wildchat-4.8m-results/no-content/*.parquet
