@@ -62,6 +62,29 @@ The plotting code accepts both the direct outputs from `classify.py` and the
 released results whose conversation text has been removed and whose files are
 stored under `wildchat-results/wildchat-4.8m-results/no-content/`.
 
+## Citations
+
+```bibtex
+@misc{hicke2026adopt,
+    title={Adopt $\neq$ Adapt: Longitudinal Analyses of {LLM} Conversations in the Wild}, 
+    author={Rebecca M. M. Hicke and Kiran Tomlinson},
+    year={2026},
+    eprint={2605.29018},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI},
+    url={https://arxiv.org/abs/2605.29018}, 
+}
+
+@inproceedings{zhao2024wildchat,
+  title={{WildChat}: {1M} {ChatGPT} interaction logs in the wild},
+  author={Zhao, Wenting and Ren, Xiang and Hessel, Jack and Cardie, Claire and Choi, Yejin and Deng, Yuntian},
+  booktitle={International Conference on Learning Representations},
+  volume={2024},
+  pages={34590--34605},
+  year={2024}
+}
+```
+
 ## Transparency Notes
 
 ### Intended uses
